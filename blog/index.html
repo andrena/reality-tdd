@@ -6,12 +6,8 @@ group: navigation
 ---
 {% include JB/setup %}
 
-{% assign posts_collate = site.posts %}
-{% include JB/posts_collate %}
-
 {% for post in site.posts %}
 <h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
 <p>{{ post.date | date: "%d.%m.%Y" }} - {{ post.content | strip_html | truncatewords: 75 }}</p>
 <p><a href="{{ BASE_PATH }}{{ post.url }}">Read more…</a></p>
-<p>{{ BASE_PATH }}</p><p>{{ post.url }}</p>
 {% endfor %}
