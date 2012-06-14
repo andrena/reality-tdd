@@ -1,0 +1,55 @@
+---
+layout: page
+title: Katalog der Standard-Situationen
+tagline: Set-piece play, the catalogue
+group: navigation
+---
+
+<blockquote>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis.</p>
+  <small>Someone famous</small>
+</blockquote>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Handeln</th>
+      <th>Ereignis</th>
+      <th>Handeln</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>[BugReg]</strong><br />Bug regression</td>
+      <td>Ich bekomme einen Fehlerreport mit einer Stacktrace, entweder beim Testen oder vom Anwender.<p/><strong>Klassiker</strong>: NPE, CCE, <code>IllegalArgument</code>- oder <code>IllegalState</code>-Exceptions</td>
+      <td><ol><li>Schreibe einen Testcase für die Stelle im Code, an der die Exception aufgetreten ist. Der Testcase überdeckt den Zweig und provoziert die Bedingungen, zu denen der Fehler aufgetreten ist.</li>
+	<li>Schreibe ggf. weitere Testcases, die die Aufrufstellen abdecken. (Manchmal notwendig, wenn die eigentliche Ursache 'früher' im Code zu finden ist. Beispiel: NullPointerExceptions treten manchmal auf, weil eine <code>null</code>-Referenz als Parameter in eine Methode hereingereicht wurde. Der eigentliche Fehler kam aber an der Aufrufstelle zustande.)</li>
+	<li>Behebe das Problem.</li></ol></td>
+    </tr>
+    <tr>
+      <td><strong>[CodDup]</strong><br />Code Duplication</td>
+      <td>Ich finde im Code an mehreren Stellen gleichen oder sehr ähnlich aussehenden Code.</td>
+      <td><ol><li>Schreibe stichprobenartige Testcases für alle Aufrufstellen der duplizierten Passage.</li>
+		<li>Extrahiere den duplizierten Code an allen Stellen in eigene Methoden oder Klassen.</li>
+		<li>Schreibe detaillierte Testcases für den extrahierten Code an einer Stelle.</li>
+		<li>Prüfe, daß alle Duplikate identisch sind (ggf. isoliere Parameter).</li>
+		<li>Ersetze Duplikate an den Aufrufstellen durch den getesteten Code.</li></ol></td>
+    </tr>
+    <tr>
+      <td><strong>[CProp1]</strong><br />Code Proportion I (Komplexität)</td>
+      <td>Ich sehe eine Methode mit verschachtelten Kontrollstrukturen.</td>
+      <td><ol><li>Schreibe einen Test pro Zweig
+			<ul>
+				<li><code>if</code>: Bedingung erfüllt/nicht erfüllt;</li>
+				<li><code>for</code>: keine Iteration, Iteration mit einem Element, Iteration mit vielen
+				Elementen;</li>
+				<li><code>while</code>: Schleifenabbruch/kein Abbruch, ggf. endlose Iteration?</li>
+			</ul></li>
+		<li>Lasse gelegentlich Tests unter Coverage laufen, um Zweige zu finden, die noch nicht abgedeckt sind.</li>
+		<li>Verlagere Bedingungen in eigene Methoden mit klarem Namen.</li>
+		<li>Prüfe, daß alle Duplikate identisch sind (ggf. isoliere Parameter).</li>
+		<li>Verlagere Blöcke zwischen den Bedingungen in Methoden mit sprechendem
+		Namen.</li></ol></td>
+    </tr>
+  </tbody>
+</table>
