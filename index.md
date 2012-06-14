@@ -21,4 +21,4 @@ tagline:
 
 TODO
 
-<a class="btn btn-success btn-large btn-primary" href="katalog.html"><i class="icon-book icon-white"> </i> Zum Katalog</a>
+<a class="btn btn-success btn-large btn-primary" href="katalog/index.html"><i class="icon-book icon-white"> </i> Zum Katalog</a>
