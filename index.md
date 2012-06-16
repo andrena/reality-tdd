@@ -11,14 +11,19 @@ Karlsruhe](http://entwicklertag.de).
 
 For this tutorial, we have developed a new approach to coaching TDD as a _skill
 and habit_, rather than just as a technique and tool. Along with the materials,
-we also explain some of the background in our blog.
+we also explain some of the background in our [blog](blog/index.html).
 
-## Materials from the tutorial
 
-<a class="btn btn-success btn-large btn-primary" href="katalog/index.html">
+
+### Materials from the tutorial
+
+<a class="btn btn-success btn-large btn-primary" 
+href="https://github.com/downloads/andrena/reality-tdd/en-KatalogDerStandardsituationen.pdf">
 <i class="icon-book icon-white"> </i> Set-piece play (the catalog)</a>
 
-## Blog
+
+
+### Blog
 
 <ul class="posts">
   {% for post in site.posts %}
