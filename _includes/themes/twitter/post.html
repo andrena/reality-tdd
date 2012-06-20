@@ -25,16 +25,14 @@
   </div>
   
   <div class="span4">
-    <h4>Published</h4>
+    <h3>Published</h3>
     <div class="date"><span>{{ page.date | date: "%d.%m.%Y" }}</span></div>
-
   {% if page.author %}
-    <h4>Author</h4>
+    <h3>Author</h3>
     <div class="author"><span>{{ page.author }}</span></div>
   {% endif %}
-
   {% unless page.tags == empty %}
-    <h4>Tags</h4>
+    <h3>Tags</h3>
     <ul class="tag_box">
     {% assign tags_list = page.tags %}
     {% include JB/tags_list %}
