@@ -37,7 +37,23 @@ tagline:
 </div>
 
 <div class="row">
-  <div class="span12">
+  <div class="span6">
+
+    <h2>Blog</h2>
+    
+    <ul class="posts">
+      {% for post in site.posts %}
+        <li><span>{{ post.date | date: "%d.%m.%Y" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+    
+    <p>
+    <a class="btn btn-success" href="blog/">
+    <i class="icon-chevron-right icon-white"> </i> Read more…</a>
+    </p>
+
+  </div>
+  <div class="span6">
 
     <h2>Downloads</h2>
     
@@ -55,20 +71,6 @@ tagline:
     <i class="icon-eye-close"> </i> Übung zum vorausschauenden Erinnern</a>
     </p>
     
-    
-    <h2>Blog</h2>
-    
-    <ul class="posts">
-      {% for post in site.posts %}
-        <li><span>{{ post.date | date: "%d.%m.%Y" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-    
-    <p>
-    <a class="btn btn-success" href="blog/">
-    <i class="icon-chevron-right icon-white"> </i> Read more…</a>
-    </p>
-
   </div>
 </div>
 
