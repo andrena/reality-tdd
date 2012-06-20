@@ -28,6 +28,11 @@
     <h4>Published</h4>
     <div class="date"><span>{{ page.date | date: "%d.%m.%Y" }}</span></div>
 
+  {% if page.author %}
+    <h4>Author</h4>
+    <div class="author"><span>{{ page.author }}</span></div>
+  {% endif %}
+
   {% unless page.tags == empty %}
     <h4>Tags</h4>
     <ul class="tag_box">
