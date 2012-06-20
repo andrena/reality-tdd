@@ -2,8 +2,8 @@
 html, body {
   background-color: #eee;
 }
-.navbar {
-  margin-bottom: 0;
+body {
+  padding-top: 60px; /* account for the hidden area underneath navbar-top-fixed */
 }
 .container > footer {
   margin-top: 20px;
