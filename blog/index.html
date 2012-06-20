@@ -9,7 +9,7 @@ group: navigation
 {% for post in site.posts %}
 <h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
 <p>{{ post.content | strip_html | truncatewords: 75 }}</p>
-<p>{{ post.date | date: "%d.%m.%Y" }} {% if page.author %} - {{ page.author }}{% endif %}</p>
+<p>{{ post.date | date: "%d.%m.%Y" }} {% if post.author %} - {{ post.author }}{% endif %}</p>
 <p><a href="{{ BASE_PATH }}{{ post.url }}">Read more…</a></p>
 {% endfor %}
 
