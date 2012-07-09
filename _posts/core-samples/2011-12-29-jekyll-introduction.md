@@ -2,6 +2,8 @@
 layout: post
 category : lessons
 tags : [intro, beginner, jekyll, tutorial]
+tagline : Customizable tagline
+author : Jade Dominguez
 ---
 {% include JB/setup %}
 
