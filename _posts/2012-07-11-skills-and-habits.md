@@ -129,7 +129,7 @@ it is often difficult and takes some experience to 'see' how a test case for a
 given code passage might look like. You need to develop an eye for these kinds
 of situations. Here's another everyday example: an experienced chess player
 doesn't go through all the possible moves by all the pieces on the board, in a
-given position. She doesn't need to. The good moves are highly apparent, they   
+given position. She doesn't need to. The good moves are highly apparent, they 
 rather stand out. And it won't be just single moves. She will probably easily
 discern entire chains of moves, counter moves, and responses to the counter
 moves; she will see at a single glance one or two promising strategies she 
