@@ -127,21 +127,22 @@ far as _that_ goes.)
 When you are in a real-world situation, facing a real-world software system, 
 it is often difficult and takes some experience to 'see' how a test case for a
 given code passage might look like. You need to develop an eye for these kinds
-of situations. Here's another everyday example: an experienced chess player
-doesn't go through all the possible moves by all the pieces on the board, in a
-given position. She doesn't need to. The good moves are highly apparent, they 
-rather stand out. And it won't be just single moves. She will probably easily
-discern entire chains of moves, counter moves, and responses to the counter
-moves; she will see at a single glance one or two promising strategies she 
-could employ given this position. (Have you ever met a person who looked at a
-chess board for a few seconds and simply remarked: "Checkmate in three moves"?
-That's the kind of skill I mean.) With an _untrained eye_, you won't be able to
-distinguish good and bad moves easily, often you won't even see all
-the _possible_ moves. With a _well-trained eye_, on the other hand, you can
-filter out all the unhelpful moves and focus on the few worth thinking about.
+of situations. <img src="http://andrena.github.com/reality-tdd/assets/images/2012-07-11-chessboard.jpg"
+ alt="Chessboard, by Anna Langova" style="float:right" /> Here's another
+everyday example: an experienced chess player doesn't go through all the
+possible moves by all the pieces on the board, in a given position. She doesn't
+need to. The good moves are highly apparent, they rather stand out. And it
+won't be just single moves. She will probably easily discern entire chains of
+moves, counter moves, and responses to the counter moves; she will see at a
+single glance one or two promising strategies she could employ given this
+position. (Have you ever met a person who looked at a chess board for a few
+seconds and simply remarked: "Checkmate in three moves"? That's the kind of
+skill I mean.) With an _untrained eye_, you won't be able to distinguish good
+and bad moves easily, often you won't even see all the _possible_ moves. With
+a _well-trained eye_, on the other hand, you can filter out all the unhelpful
+moves and focus on the few worth thinking about.
 
-<img src="http://andrena.github.com/reality-tdd/assets/images/2012-07-11-chessboard.jpg"
- alt="Chessboard, by Anna Langova" style="float:right" />
+
 
 It's similar with code bases. For the untrained eye (unexperienced in writing
 unit tests in a realistic scenario) almost every piece of code that wasn't
