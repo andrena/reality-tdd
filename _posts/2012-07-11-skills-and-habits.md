@@ -2,11 +2,11 @@
 layout: post
 author: <a href="http://examinedcode.blogspot.com">Leif Frenzel</a>
 category : introduction
+title: TDD as a skill and habit
+tagline: General background, part 2
 tags : [introduction, approach, didactics]
 ---
 {% include JB/setup %}
-
-## TDD as a skill and habit
 
 Our goal is to teach test-driven development (TDD) in a way so that it becomes
 a programming habit, an integral part of how developers work on their software
@@ -140,7 +140,8 @@ distinguish good and bad moves easily, often you won't even see all
 the _possible_ moves. With a _well-trained eye_, on the other hand, you can
 filter out all the unhelpful moves and focus on the few worth thinking about.
 
-![Chessboard, by Anna Langova](http://andrena.github.com/reality-tdd/assets/images/2012-07-11-chessboard.jpg "Chessboard, by Anna Langova")
+<img src="http://andrena.github.com/reality-tdd/assets/images/2012-07-11-chessboard.jpg"
+ alt="Chessboard, by Anna Langova" align="middle" />
 
 It's similar with code bases. For the untrained eye (unexperienced in writing
 unit tests in a realistic scenario) almost every piece of code that wasn't
@@ -159,17 +160,18 @@ need good prospective memory, and you need an eye for finding test cases.
 
 In the approach that we have developed, we focus on exactly those skills. I
 have written in my post on the didactics of TDD (TODO link) that you need to
-start slow and develop a habit. But you have to develop it facing a
-_realistic code base_, in order to develop the eye for finding test cases. You
-start with recognizing certain situations, and then train to find test cases. 
-This works especially well because these situations are comparatively easy to
-recognize and there is an already proven strategy: that's why we call working
-with these situations 
-[_set-piece play_](http://andrena.github.com/reality-tdd/introduction/2012/07/10/set-play/). 
-Once you have learned to recognize and handle set-piece situations, you just
-have to integrate them in your daily habits, all along training your 
-prospective memory (for which you can use the catalog of set-piece situations
-again). That's our approach in a nutshell.
+start slow and build up a habit. But you have to build it up facing a
+_realistic code base_ (not sandbox examples), in order to develop the eye for
+finding test cases. You start with recognizing certain situations, and then
+train to find test cases. This works especially well if you focus on a list
+of common situations (which we have labeled 
+[set-play situations](http://andrena.github.com/reality-tdd/introduction/2012/07/10/set-play/)),
+because these situations are comparatively easy to recognize and there is an
+already proven strategy for dealing with them. Once you have learned to
+recognize and handle set-piece situations, you just have to integrate them in
+your daily habits, all along training your prospective memory (for which you
+can use the catalog of set-piece situations again). That's our approach in a 
+nutshell.
 
 **3)** There is a third condition that must be fulfilled: even when you 
 remember to write a test case, and when you know how to do it, you must be 
