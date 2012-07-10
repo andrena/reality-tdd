@@ -141,7 +141,7 @@ the _possible_ moves. With a _well-trained eye_, on the other hand, you can
 filter out all the unhelpful moves and focus on the few worth thinking about.
 
 <img src="http://andrena.github.com/reality-tdd/assets/images/2012-07-11-chessboard.jpg"
- alt="Chessboard, by Anna Langova" align="middle" />
+ alt="Chessboard, by Anna Langova" style="float:right" />
 
 It's similar with code bases. For the untrained eye (unexperienced in writing
 unit tests in a realistic scenario) almost every piece of code that wasn't
