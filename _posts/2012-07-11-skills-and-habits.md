@@ -14,34 +14,34 @@ projects.
 
 This is an ambitious goal: it goes further than just getting the basic idea
 across; and it is likely to require a re-thinking of the ways in which TDD
-has been trained so far.
+has been taught so far.
 
 
 #### The target audience
 
 In order to make TDD into an integral part of your daily coding practice, you
-need to
+first need to
 
 * know what TDD is (understand the basic idea and the TDD cycle)
 * know why you want to do it (understand the benefits of test-first programming)
 
 TDD has been around for so long now that we simply assume these two conditions:
 our target audience are those developers who have command of the basic ideas
-(the TDD cycle, and how to use tools such as xUnit) and who are convinced 
+(the TDD cycle, and how to use tools such as xUnit), and who are convinced 
 enough of the benefits of test-driven development that they want to seriously
 integrate it in their coding practice. 
 
-The first applies probably to a large majority of programmers in the mainstream
-object-oriented languages nowadays, and even if you happen to have no idea
+The first is probably true of a large majority of programmers in the mainstream
+object-oriented languages nowadays; and even if you happen to have no idea
 about the basics of TDD yet, there are plenty of books and web tutorials around
-where you can pick them up. The second may limit the audience a little more; 
+where you can pick them up. The second may limit the audience a little more: 
 not everybody may be as convinced of the positive value of test-driven
 development as we are. If you're not, you may still be interested to hear
 about our approach to establishing a development _practice_, because that 
-approach may be applicable to other practices as well, possibly practices which
-you take to be more worthwhile. (In fact, we are currently working on extending
-this approach to another object-oriented development style, namely, code 
-contracts.) 
+approach may be applicable to practices other than TDD as well, possibly
+practices which you take to be more worthwhile. (In fact, we are currently
+working on extending this approach to another object-oriented development
+style, namely, code contracts.) 
 
 So this is our intended audience: if you're a software developer with a basic
 knowledge of TDD and some belief that it's a good thing to do it more often,
@@ -50,53 +50,54 @@ then this site may be of interest to you.
 
 #### Success conditions
 
-If this was what we simply assume, the tricky bit comes now &mdash; for in 
-order to fully integrate TDD in your daily work, you need also
+If this was what we simply assume, then now comes the tricky bit &mdash; for 
+in order to fully integrate TDD in your daily work, you need also
 
-*   during your everyday coding work, in each concrete situation:
+*   _during your everyday coding work_, in each concrete situation:
     * _remember_ that you want to write a test case first;
     * _know how to do it_ (given the real-world code base you are facing);
-    * have enough time and acceptance in your team to do the extra amount of
+    * have enough time and acceptance in your team for the extra amount of
       work that it takes.
 
 If any of these conditions is not fulfilled, it won't happen, _even though_
 you know the basic TDD cycle and _even though_ you are convinced of the 
-advantages. It's simply that there has to be more than just that.
+advantages. More needs to be the case than just that.
 
-Let's break these three conditions down and look a little closer at them.
+Let us break down these three conditions now and take a closer look.
 
 **1)** In every concrete coding situation you have to _remember_ that you want
 to start with a test. Since you have presumably written software for years
 already without necessarily writing test cases first (or without necessarily
 writing them at all), this is not the first thing that will come to your mind.
 What comes to your mind first is typically something else: most likely, it's
-an implementation idea. That idea will probably pull you into doing an 
-implementation sketch, one thing will lead to another, and you'll quickly end
-up with some substantial portion of working code before you even start 
-thinking about tests.
+an implementation idea; that idea will probably pull you into doing an 
+implementation sketch; one thing will lead to another, and you'll quickly end
+up with a substantial amount of working code before you even start thinking
+about tests.
 
 Of course, when you learned about TDD for the first time, you _resolved_ to do
 it differently. You submitted to the rule that says not to touch production
 code without a red test. You formed an intention to write your test cases 
-first. But when you delved back into the daily coding routine, old habits 
+first. But when you sunk back into the daily coding routine, old habits 
 swiftly kicked in and your resolutions were'nt on the forefront of your mind
 for much longer. It's not that you didn't _want_ to do it. From within the
 middle of things you simple often didn't _remember_.
 
 The ability required here is called _prospective memory_ &mdash; it's a 
 specific form of memory where you form an intention to recall something later,
-and then in fact _do_ recall it. Here's an everyday example. In the morning
-you tell yourself: "When I'm in town today for my lunch break, I must remember
-to buy some flowers in the shop at the corner." Then you go off into your day.
-With weak prospective memory, you will likely not remember (after your morning
-commute, your first half workday, and your lunch break), and you'll walk by the
-corner shop thinking of something else entirely, but not buying the flowers.
-In the evening, when you find yourself without them, it will suddenly come
-back. ("Damn, I forgot!") In contrast, if you have good prospective memory, 
-when you stand up from your lunch table you will find yourself thinking: "Well,
-and now I'll get those flowers." Needless to say, it's a capacity that is 
-developed to a different degree in different people; but of course it is 
-something that can be learned and deliberately improved with some training.
+and then in fact _do_ recall it at that later time. Here's an everyday example.
+In the morning you tell yourself: "When I'm in town today for my lunch break, 
+I must remember to buy some milk in the shop at the corner." Then you go 
+off into your day. With weak prospective memory, you will likely not remember
+(after your morning commute, your first half workday, and your lunch break), 
+and you'll walk by the corner shop thinking of something else entirely. In the
+evening, when you find yourself without milk, it will suddenly come back.
+("Damn, I forgot!") In contrast, if you have good prospective memory, when you
+stand up from your lunch table you will find yourself thinking: "Well, and now
+I'll walk over to the shop and get that milk." Needless to say, this capacity,
+prospective memory, is developed to a different degree in different people; 
+but of course it can also be learned and deliberately improved with some 
+training.
 
 When you want to establish a new programming habit, such as test-driven 
 development, then you need prospective memory. Most of your typical everyday
@@ -121,8 +122,7 @@ unwieldy in its syntax, or badly integrated in popular IDEs, then everybody's
 motivation to try out TDD would come to a quick death. But the simplicity of
 the tool is only part of the story. (I have already noted that most
 programmers easily learn the basics, which means that it works well enough as
-far as _that_ goes. And yet many of those still don't make a daily habit out 
-of it.)
+far as _that_ goes.)
 
 When you are in a real-world situation, facing a real-world software system, 
 it is often difficult and takes some experience to 'see' how a test case for a
@@ -135,9 +135,9 @@ discern entire chains of moves, counter moves, and responses to the counter
 moves; she will see at a single glance one or two promising strategies she 
 could employ given this position. (Have you ever met a person who looked at a
 chess board for a few seconds and simply remarked: "Checkmate in three moves"?
-That's the kind of skill I mean.) With an untrained eye, you won't be able to
+That's the kind of skill I mean.) With an _untrained eye_, you won't be able to
 distinguish good and bad moves easily, often you won't even see all
-the _possible_ moves. With a well-trained eye, on the other hand, you can
+the _possible_ moves. With a _well-trained eye_, on the other hand, you can
 filter out all the unhelpful moves and focus on the few worth thinking about.
 
 ![Chessboard, by Anna Langova](http://andrena.github.com/reality-tdd/assets/images/2012-07-11-chessboard.jpg "Chessboard, by Anna Langova")
