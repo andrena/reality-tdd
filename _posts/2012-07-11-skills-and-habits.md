@@ -1,7 +1,7 @@
 ---
 layout: post
 author: <a href="http://examinedcode.blogspot.com">Leif Frenzel</a>
-category : introduction
+category : background
 title: TDD as a skill and habit
 tagline: General background, part 2
 tags : [introduction, approach, didactics]
@@ -166,7 +166,7 @@ _realistic code base_ (not sandbox examples), in order to develop the eye for
 finding test cases. You start with recognizing certain situations, and then
 train to find test cases. This works especially well if you focus on a list
 of common situations (which we have labeled 
-[set-play situations](http://andrena.github.com/reality-tdd/introduction/2012/07/10/set-play/)),
+[set-play situations](http://andrena.github.com/reality-tdd/background/2012/07/10/set-play/)),
 because these situations are comparatively easy to recognize and there is an
 already proven strategy for dealing with them. Once you have learned to
 recognize and handle set-piece situations, you just have to integrate them in
@@ -198,7 +198,7 @@ other parts here:_
 
 *   _The didactics of test-driven development_ 
 *   _TDD as a skill and habit (this post)_
-*   [_Set-piece play_](http://andrena.github.com/reality-tdd/introduction/2012/07/10/set-play/)
+*   [_Set-piece play_](http://andrena.github.com/reality-tdd/background/2012/07/10/set-play/)
 
 _Note that this is a draft and might still change a little in the near future._
 
