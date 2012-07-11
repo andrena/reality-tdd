@@ -142,8 +142,6 @@ and bad moves easily, often you won't even see all the _possible_ moves. With
 a _well-trained eye_, on the other hand, you can filter out all the unhelpful
 moves and focus on the few worth thinking about.
 
-
-
 It's similar with code bases. For the untrained eye (unexperienced in writing
 unit tests in a realistic scenario) almost every piece of code that wasn't
 developed already against unit tests will look untestable. Only with training
@@ -196,7 +194,7 @@ against them.
 _This post belongs to a three-part introduction to our approach. Read the
 other parts here:_
 
-*   _The didactics of test-driven development_ 
+*   [_The didactics of test-driven development_](http://andrena.github.com/reality-tdd/background/2012/07/12/didactics-of-tdd/)
 *   _TDD as a skill and habit (this post)_
 *   [_Set-piece play_](http://andrena.github.com/reality-tdd/background/2012/07/10/set-play/)
 
