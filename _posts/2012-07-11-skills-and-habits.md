@@ -199,6 +199,4 @@ other parts here:_
 *   _TDD as a skill and habit (this post)_
 *   [_Set-piece play_](http://andrena.github.com/reality-tdd/background/2012/07/10/set-play/)
 
-_Note that this is a draft and might still change a little in the near future._
-
 <sub><sup>Copyright (c) 2012 by Leif Frenzel. All rights reserved.</sup></sub>
