@@ -1,6 +1,7 @@
 ---
 layout: post
 category : background
+author: <a href="http://examinedcode.blogspot.com">Leif Frenzel</a>
 title: The didactics of test-driven development
 tagline: General background, part 1
 tags : [introduction, approach, didactics]
