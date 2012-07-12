@@ -188,7 +188,7 @@ other parts here:_
 *   [_TDD as a skill and habit_](http://andrena.github.com/reality-tdd/background/2012/07/11/skills-and-habits/)
 *   [_Set-piece play_](http://andrena.github.com/reality-tdd/background/2012/07/10/set-play/)
 
-<sup>1</sup> For a very readable introduction to recent research on willpower, 
+1 For a very readable introduction to recent research on willpower, 
 see Roy F. Baumeister and John Tierney, _Willpower_, Penguin Press 2011.
 
 <sub><sup>Copyright (c) 2012 by Leif Frenzel. All rights reserved.</sup></sub>
