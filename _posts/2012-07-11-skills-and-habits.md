@@ -101,9 +101,9 @@ training.
 
 When you want to establish a new programming habit, such as test-driven 
 development, then you need prospective memory. Most of your typical everyday
-coding situations will be just like hundreds have been before, and you'll most
-likely fall into old working habits just like a hundred times before. Therefore
-it is an essential first condition for effecting any change that you learn to
+coding situations will be just like hundreds before, and you'll most likely
+fall into old working habits just like a hundred times before. Therefore it is
+an essential first condition for effecting any change that you learn to 
 reliably _remember_ that (and when) you want to do something differently.
 
 **2)** But even if you _do_ remember, in a given everyday situation when you 
@@ -130,17 +130,17 @@ given code passage might look like. You need to develop an eye for these kinds
 of situations. <img src="http://andrena.github.com/reality-tdd/assets/images/2012-07-11-chessboard.jpg"
  alt="Chessboard, by Anna Langova" style="float:right" /> Here's another
 everyday example: an experienced chess player doesn't go through all the
-possible moves by all the pieces on the board, in a given position. She doesn't
-need to. The good moves are highly apparent, they rather stand out. And it
-won't be just single moves. She will probably easily discern entire chains of
-moves, counter moves, and responses to the counter moves; she will see at a
-single glance one or two promising strategies she could employ given this
-position. (Have you ever met a person who looked at a chess board for a few
-seconds and simply remarked: "Checkmate in three moves"? That's the kind of
+possible moves for all the pieces on the board, in a given position. She 
+doesn't need to. The good moves are highly apparent, they rather stand out for
+her. And it won't be just single moves. She will probably easily discern entire 
+chains of moves, counter moves, and responses to the counter moves; she will 
+see at a single glance one or two promising strategies she could employ given 
+this position. (Have you ever met a person who looked at a chess board for a 
+few seconds and simply remarked: "Checkmate in three moves"? That's the kind of
 skill I mean.) With an _untrained eye_, you won't be able to distinguish good
 and bad moves easily, often you won't even see all the _possible_ moves. With
-a _well-trained eye_, on the other hand, you can filter out all the unhelpful
-moves and focus on the few worth thinking about.
+a _well-trained eye_, on the other hand, you automatically filter out all the 
+unhelpful moves and focus on the few worth thinking about.
 
 It's similar with code bases. For the untrained eye (unexperienced in writing
 unit tests in a realistic scenario) almost every piece of code that wasn't
@@ -158,12 +158,13 @@ a test, in a given situation, you also have to _know how to do it_. You
 need good prospective memory, and you need an eye for finding test cases.
 
 In the approach that we have developed, we focus on exactly those skills. I
-have written in my post on the didactics of TDD (TODO link) that you need to
-start slow and build up a habit. But you have to build it up facing a
-_realistic code base_ (not sandbox examples), in order to develop the eye for
-finding test cases. You start with recognizing certain situations, and then
-train to find test cases. This works especially well if you focus on a list
-of common situations (which we have labeled 
+have written in [my post on the didactics of TDD]
+(http://andrena.github.com/reality-tdd/background/2012/07/12/didactics-of-tdd/)
+that you need to start slow and build up a habit. But you have to build it up 
+facing a _realistic code base_ (not sandbox examples), in order to develop the
+eye for finding test cases. You start with recognizing certain situations, and
+then train to find test cases. This works especially well if you focus on a 
+list of common situations (which we have labeled 
 [set-play situations](http://andrena.github.com/reality-tdd/background/2012/07/10/set-play/)),
 because these situations are comparatively easy to recognize and there is an
 already proven strategy for dealing with them. Once you have learned to
