@@ -153,7 +153,7 @@ The real solution lies not in what the coach _knows_, but in what he _does_.
 Whenever you want to change something, it goes against your current habits,
 and it costs some willpower to do something in a different way than you're
 used to. Once you have established a habit, once it is the thing you usually 
-do, then consumes virtually no energy &mdash; it's easy and doesn't exhaust
+do, then it consumes virtually no energy &mdash; it's easy and doesn't exhaust
 you. But until you're there, it means going uphill.<sup>1</sup>
 
 Thus you can't start all at once, you need to build it up slowly. Moreover,
