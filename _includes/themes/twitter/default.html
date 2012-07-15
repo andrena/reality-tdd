@@ -46,7 +46,9 @@
       </div>
 
       <footer>
-        <p>&copy; {{ site.author.year }} by {{ site.author.name }}. Provided under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</p>
+{% if copyright %}
+        <p>&copy; {{ copyright }}</p>
+{% endif %}
 		<p>Powered by <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a> and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>.</p>
       </footer>
 

@@ -191,5 +191,3 @@ other parts here:_
 
 1 For a very readable introduction to recent research on willpower, 
 see Roy F. Baumeister and John Tierney, _Willpower_, Penguin Press 2011.
-
-<sub><sup>Copyright (c) 2012 by Leif Frenzel. All rights reserved.</sup></sub>

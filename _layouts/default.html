@@ -3,4 +3,7 @@ theme :
   name : twitter
 ---
 {% include JB/setup %}
+{% capture copyright %}
+{{ site.author.year }} by {{ site.author.name }}. Provided under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
+{% endcapture %}
 {% include themes/twitter/default.html %}

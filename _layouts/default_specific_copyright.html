@@ -1,0 +1,9 @@
+---
+theme :
+  name : twitter
+---
+{% include JB/setup %}
+{% capture copyright %}
+{{ page.date | date: "%Y" }} by {{ page.author }}. All rights reserved.
+{% endcapture %}
+{% include themes/twitter/default.html %}

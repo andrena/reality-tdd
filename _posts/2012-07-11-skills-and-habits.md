@@ -198,5 +198,3 @@ other parts here:_
 *   [_The didactics of test-driven development_](http://andrena.github.com/reality-tdd/background/2012/07/12/didactics-of-tdd/)
 *   _TDD as a skill and habit (this post)_
 *   [_Set-piece play_](http://andrena.github.com/reality-tdd/background/2012/07/10/set-play/)
-
-<sub><sup>Copyright (c) 2012 by Leif Frenzel. All rights reserved.</sup></sub>
