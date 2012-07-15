@@ -1,6 +1,6 @@
 ---
 layout: post
-author: <a href="http://examinedcode.blogspot.com">Leif Frenzel</a>
+author: Leif Frenzel
 category : background
 title: TDD as a skill and habit
 tagline: General background, part 2

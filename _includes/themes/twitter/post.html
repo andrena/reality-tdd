@@ -29,7 +29,13 @@
     <div class="date"><span>{{ page.date | date: "%d.%m.%Y" }}</span></div>
   {% if page.author %}
     <h3>Author</h3>
-    <div class="author"><span>{{ page.author }}</span></div>
+    <div class="author">
+    {% if page.author == 'Leif Frenzel' %}
+      <a href="http://examinedcode.blogspot.com">Leif Frenzel</a>
+    {% else %}
+      <span>{{ page.author }}</span>
+    {% endif %}
+    </div>
   {% endif %}
   {% unless page.tags == empty %}
     <h3>Tags</h3>
